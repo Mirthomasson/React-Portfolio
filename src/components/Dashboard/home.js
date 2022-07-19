@@ -14,7 +14,7 @@ const Home = () => {
         const description = form.current[1]?.value;
         const url = form.current[2]?.value;
         const image = form.current[3]?.files[0];
-
+        
         const storageRef = ref(storage, `portfolio/${image.name}`);
 
         uploadBytes(storageRef, image).then(
