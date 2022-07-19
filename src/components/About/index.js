@@ -1,4 +1,6 @@
+/* eslint-disable */
 import { useEffect, useState } from 'react';
+/* eslint-enable */
 import {
   faAngular,
   faCss3,
@@ -13,8 +15,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './index.scss';
 
 const About = () => {
+  /* eslint-disable */
   const [letterClass, setLetterClass] = useState('text-animate')
-
+  /* eslint-enable */
   // useEffect(() => {
   //   return setTimeout(() => {
   //     setLetterClass('text-animate-hover')
