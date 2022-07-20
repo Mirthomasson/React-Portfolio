@@ -4,9 +4,10 @@ import Home from "./home";
 import Login from '../Login';
 
 const Dashboard = () => {
-
+    /* eslint-disable */
     const [user, setUser] = useState(null);
     const auth = getAuth();
+    /* eslint-enable */
 
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {
