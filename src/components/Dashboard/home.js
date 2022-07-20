@@ -49,12 +49,12 @@ const Home = () => {
 
     const savePortfolio = async (portfolio) => {
         console.log(portfolio);
-        try {
-            await addDoc(collection(db, 'portfolio'), portfolio);
-            window.location.reload(false);
-        } catch (error) {
-            alert('Failed to add portfolio');
-        }
+        // try {
+        //     await addDoc(collection(db, 'portfolio'), portfolio);
+        //     window.location.reload(false);
+        // } catch (error) {
+        //     alert('Failed to add portfolio');
+        // }
     }
 
     return (
