@@ -1,36 +1,23 @@
-// eslint-disable-next-line
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import { getDocs, collection } from 'firebase/firestore';
-import { db } from '../../firebase';
+import portfolioData from '../../data/portfolio.json';
 
 const Portfolio = () => { 
-    const [letterClass, //setLetterClass
-    ] = useState('text-animate');
-    const [portfolio, setPortfolio] = useState([]);
+    const [letterClass, setLetterClass] = useState('text-animate');
+    console.log(portfolioData);
 
-    // useEffect(() => {
-    //     const timer = setTimeout(() => {
-    //         setLetterClass('text-animate-hover');
-    //     }, 3000);
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLetterClass('text-animate-hover');
+        }, 3000);
 
-    //     return () => {
-    //         clearTimeout(timer);
-    //     }
-    // });
+        return () => {
+            clearTimeout(timer);
+        };
+    });
 
-    // useEffect(() => {
-    //     getPortfolio();
-    // }, []);
-    // eslint-disable-next-line
-    const getPortfolio = async () => {
-        const querySnapshot = await getDocs(collection(db, 'portfolio'));
-        setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
-    }
-
-    console.log(portfolio);
 
     const renderPortfolio = (portfolio) => {
         return (
@@ -70,7 +57,7 @@ const Portfolio = () => {
                         idx={15}
                     />
                 </h1>
-                <div>{renderPortfolio(portfolio)}</div>
+                <div>{renderPortfolio(portfolioData)}</div>
             </div>
             <Loader type="pacman" />
         </>

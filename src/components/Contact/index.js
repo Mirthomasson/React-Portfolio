@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 import { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
@@ -8,30 +7,30 @@ import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 
 const Contact = () => {
-  // eslint-disable-next-line
-  const [letterClass, setLetterClass] = useState('text-animate')
-  const refForm = useRef()
+  const [letterClass, setLetterClass] = useState('text-animate');
+  const refForm = useRef();
 
-  // useEffect(() => {
-  //   return setTimeout(() => {
-  //     setLetterClass('text-animate-hover')
-  //   }, 3000)
-  // }, [])
+  useEffect(() => {
+		const timer = setTimeout(() => {
+			setLetterClass('text-animate-hover');
+		}, 3000);
+		return () => clearTimeout(timer);
+	}, []);
 
   const sendEmail = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
     emailjs.sendForm('service_7fw2igt', 'template_gs5q3fm', refForm.current, 'tVHmVtFu78HBOShST')
       .then(
         () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
+          alert('Message successfully sent!');
+          window.location.reload(false);
         },
         () => {
-          alert('Failed to send the message, please try again')
+          alert('Failed to send the message, please try again');
         }
-      )
-  }
+      );
+  };
 
   return (
     <>

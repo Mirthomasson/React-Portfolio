@@ -111,3 +111,17 @@
         }
     }
 }
+
+//Media Queries 
+
+@media only screen and (max-width: 600px) {
+    .portfolio-page 
+    h1.page-title {
+        margin-left: -0;
+    }
+
+    .portfolio-page
+    .image-box {
+        max-width: 100%;
+    }
+}

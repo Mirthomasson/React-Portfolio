@@ -1,5 +1,5 @@
 import { useState } from 'react'
-// import { useEffect } from 'react'
+import { useEffect } from 'react'
 import {
   faAngular,
   faCss3,
@@ -14,14 +14,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
 const About = () => {
-  const [letterClass, //setLetterClass
-] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState('text-animate')
 
-  // useEffect(() => {
-  //   return setTimeout(() => {
-  //     setLetterClass('text-animate-hover')
-  //   }, 3000)
-  // }, [])
+  useEffect(() => {
+		const timer = setTimeout(() => {
+			setLetterClass('text-animate-hover');
+		}, 4000);
+		return () => clearTimeout(timer);
+	}, []);
 
   return (
     <>
@@ -35,18 +35,18 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
+            I am an ambitious front-end developer looking for a role in
+            established company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            I'm determined, hardworking, optimistic, and love to stay busy. 
+            I am consistantly improving my programming skills one day at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            To define myself in one sentence I am a dog mom to 2 german shepherds, 
+            wife to an amazing husband, a yoga enthusiast,
+            self-proclaimed chef, and addicted to code.
           </p>
         </div>
 
@@ -78,4 +78,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Loader from 'react-loaders';
@@ -8,17 +7,16 @@ import Logo from './Logo';
 import './index.scss';
 
 const Home = () => {
-    const [letterClass, //setLetterClass
-    ] = useState('text-animate')
-    const nameArray = ['i', 'r', 'a', 'n', 'd', 'a']
-    const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
+    const [letterClass, setLetterClass] = useState('text-animate');
+    const nameArray = ['i', 'r', 'a', 'n', 'd', 'a'];
+    const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.'];
 
     
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //       setLetterClass('text-animate-hover')
-    //     }, 4000)
-    //   }, [])
+    useEffect(() => {
+        setTimeout(() => {
+          setLetterClass('text-animate-hover');
+        }, 4000);
+      }, []);
 
     return (
         <>
