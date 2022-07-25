@@ -6,7 +6,7 @@ import portfolioData from '../../data/portfolio.json';
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
-    console.log(portfolioData);
+    const [portfolio] = useState([]);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -15,9 +15,11 @@ const Portfolio = () => {
 
         return () => {
             clearTimeout(timer);
-        };
+        }
     });
 
+
+    console.log(portfolio);
 
     const renderPortfolio = (portfolio) => {
         return (
@@ -27,7 +29,7 @@ const Portfolio = () => {
                         return (
                             <div className="image-box" key={idx}>
                                 <img 
-                                src={port.image}
+                                src={port.cover}
                                 className="portfolio-image"
                                 alt="portfolio" />
                                 <div className="content">
@@ -57,7 +59,7 @@ const Portfolio = () => {
                         idx={15}
                     />
                 </h1>
-                <div>{renderPortfolio(portfolioData)}</div>
+                <div>{renderPortfolio(portfolioData.portfolio)}</div>
             </div>
             <Loader type="pacman" />
         </>

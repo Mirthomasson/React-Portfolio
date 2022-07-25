@@ -1,34 +1,52 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/p-1.png",
+            "title": "Concrete Contractor Website",
+            "description": "HTML, CSS",
+            "url": "https://clark-concrete.netlify.app"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/p-2.png",
+            "title": "Reddit Simple",
+            "description": "React, HTML, CSS, Javascript",
+            "url": "https://reddit-simple.netlify.app"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/p-3.png",
+            "title": "Handbag Website",
+            "description": "HTML, CSS",
+            "url": "https://savage-handbags.netlify.app"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/p-4.png",
+            "title": "Data Storage Component",
+            "description": "HTML, CSS, Javascript",
+            "url": "https://mirthomasson.github.io/Fylo-Data-Storage-Component/"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/p-5.png",
+            "title": "Rating Component",
+            "description": "HTML, CSS, Javascript",
+            "url": "https://mirthomasson.github.io/Interactive-Rating-Component/"
+        },
+        {
+            "cover": "/portfolio/p-6.png",
+            "title": "Chat App Illustration",
+            "description": "HTML, CSS",
+            "url": "https://mirthomasson.github.io/Chat-App-CSS-Illustration/"
+        },
+        {
+            "cover": "/portfolio/p-7.png",
+            "title": "Mirritos",
+            "description": "HTML, CSS",
+            "url": "https://mirthomasson.github.io/Mir-ritos/"
+        },
+        {
+            "cover": "/portfolio/p-8.png",
+            "title": "Registration Form",
+            "description": "HTML, CSS",
+            "url": "https://mirthomasson.github.io/My-Registration-Form/"
         }
     ]
 }

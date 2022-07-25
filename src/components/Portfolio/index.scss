@@ -7,7 +7,7 @@
     overflow: auto;
 
     h1.page-title {
-        margin-left: 100px;
+        margin-left: 70px;
         margin-top: 100px;
     }
 
@@ -114,14 +114,19 @@
 
 //Media Queries 
 
-@media only screen and (max-width: 600px) {
-    .portfolio-page 
+@media only screen and (max-width: 1100px) {
+.portfolio-page {
     h1.page-title {
         margin-left: -0;
     }
 
-    .portfolio-page
     .image-box {
         max-width: 100%;
+        margin: 20px auto;
     }
+
+    .images-container {
+        display: inline;
+    }
+}
 }
