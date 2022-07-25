@@ -1,6 +1,5 @@
-/* eslint-disable */
+// eslint-disable-next-line
 import { useEffect, useState } from 'react';
-/* eslint-enable */
 import Loader from 'react-loaders';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { useRef } from 'react';
@@ -9,9 +8,8 @@ import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 
 const Contact = () => {
-  /* eslint-disable */
+  // eslint-disable-next-line
   const [letterClass, setLetterClass] = useState('text-animate')
-  /* eslint-enable */
   const refForm = useRef()
 
   // useEffect(() => {

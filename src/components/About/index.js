@@ -1,6 +1,5 @@
-/* eslint-disable */
-import { useEffect, useState } from 'react';
-/* eslint-enable */
+import { useState } from 'react'
+// import { useEffect } from 'react'
 import {
   faAngular,
   faCss3,
@@ -8,16 +7,16 @@ import {
   faHtml5,
   faJsSquare,
   faReact,
-} from '@fortawesome/free-brands-svg-icons';
-import Loader from 'react-loaders';
-import AnimatedLetters from '../AnimatedLetters';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './index.scss';
+} from '@fortawesome/free-brands-svg-icons'
+import Loader from 'react-loaders'
+import AnimatedLetters from '../AnimatedLetters'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './index.scss'
 
 const About = () => {
-  /* eslint-disable */
-  const [letterClass, setLetterClass] = useState('text-animate')
-  /* eslint-enable */
+  const [letterClass, //setLetterClass
+] = useState('text-animate')
+
   // useEffect(() => {
   //   return setTimeout(() => {
   //     setLetterClass('text-animate-hover')
@@ -36,18 +35,18 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very determined front-end developer looking for a role with an
-            established company to have the opportunity to work with the latest
+            I'm very ambitious front-end developer looking for a role in
+            established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm an optimistic, curious, and hard working individual who 
-            enjoys debugging code, building websites, and designing.
+            I'm quietly confident, naturally curious, and perpetually working on
+            improving my chops one design problem at a time.
           </p>
           <p>
-            If I were to define myself in one sentence, that would be a dog
-            mom to 2 german shepherds, wife to an extremely supportive husband, a yoga enthusiast, 
-            self proclaimed chef, and an obsessive programmer!
+            If I need to define myself in one sentence that would be a family
+            person, father of a beautiful daughter, a sports fanatic,
+            photography enthusiast, and tech-obsessed!!!
           </p>
         </div>
 
@@ -79,4 +78,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default About

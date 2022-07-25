@@ -1,0 +1,38 @@
+.dashboard {
+    button {
+        color: #6EBFB5;
+        font-size: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid #6EBFB5;
+        border-radius: 4px;
+        background: 0 0;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+
+    input[type='text'] {
+      width: 50%;
+      border: 0;
+      background: #115173;
+      height: 50px;
+      font-size: 16px;
+      color: #fff;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+  
+    textarea {
+      width: 50%;
+      border: 0;
+      background: #115173;
+      height: 50px;
+      font-size: 16px;
+      color: #fff;
+      padding: 20px;
+      box-sizing: border-box;
+      min-height: 150px;
+    }
+}

@@ -1,28 +1,30 @@
+// eslint-disable-next-line
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import { getDocs, collection } from 'firebase/firestore/lite';
+import { getDocs, collection } from 'firebase/firestore';
 import { db } from '../../firebase';
 
 const Portfolio = () => { 
-    const [letterClass, setLetterClass] = useState('text-animate');
+    const [letterClass, //setLetterClass
+    ] = useState('text-animate');
     const [portfolio, setPortfolio] = useState([]);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setLetterClass('text-animate-hover');
-        }, 3000);
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         setLetterClass('text-animate-hover');
+    //     }, 3000);
 
-        return () => {
-            clearTimeout(timer);
-        }
-    });
+    //     return () => {
+    //         clearTimeout(timer);
+    //     }
+    // });
 
-    useEffect(() => {
-        getPortfolio();
-    }, []);
-
+    // useEffect(() => {
+    //     getPortfolio();
+    // }, []);
+    // eslint-disable-next-line
     const getPortfolio = async () => {
         const querySnapshot = await getDocs(collection(db, 'portfolio'));
         setPortfolio(querySnapshot.docs.map((doc) => doc.data()));

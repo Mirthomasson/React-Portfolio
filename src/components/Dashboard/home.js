@@ -3,6 +3,7 @@ import { auth, storage, db } from '../../firebase';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { addDoc } from 'firebase/firestore';
 import { collection } from 'firebase/firestore/lite';
+import './home.scss';
 
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
         const description = form.current[1]?.value;
         const url = form.current[2]?.value;
         const image = form.current[3]?.files[0];
-        
+
         const storageRef = ref(storage, `portfolio/${image.name}`);
 
         uploadBytes(storageRef, image).then(
@@ -49,12 +50,12 @@ const Home = () => {
 
     const savePortfolio = async (portfolio) => {
         console.log(portfolio);
-        // try {
-        //     await addDoc(collection(db, 'portfolio'), portfolio);
-        //     window.location.reload(false);
-        // } catch (error) {
-        //     alert('Failed to add portfolio');
-        // }
+        try {
+            await addDoc(collection(db, 'portfolio'), portfolio);
+            window.location.reload(false);
+        } catch (error) {
+            alert('Failed to add portfolio');
+        }
     }
 
     return (

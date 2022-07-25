@@ -1,7 +1,5 @@
-
-/* eslint-disable */
+// eslint-disable-next-line
 import { useEffect, useState } from 'react';
-/* eslint-enable */
 import { Link } from 'react-router-dom';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
@@ -10,9 +8,8 @@ import Logo from './Logo';
 import './index.scss';
 
 const Home = () => {
-    /* eslint-disable */
-    const [letterClass, setLetterClass] = useState('text-animate')
-    /* eslint-enable */
+    const [letterClass, //setLetterClass
+    ] = useState('text-animate')
     const nameArray = ['i', 'r', 'a', 'n', 'd', 'a']
     const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
 
