@@ -35,9 +35,9 @@ const About = () => {
             />
           </h1>
           <p>
-            I am an ambitious front-end developer looking for a role in
-            established company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I am an ambitious front-end developer looking for a role with an 
+            established company with the opportunity to work along side experienced 
+            developers and collaborate on projects with a team.
           </p>
           <p align="LEFT">
             I'm determined, hardworking, optimistic, and love to stay busy. 
