@@ -17,20 +17,29 @@ const Contact = () => {
 		return () => clearTimeout(timer);
 	}, []);
 
+const [status, setStatus] = useState('');
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_7fw2igt', 'template_gs5q3fm', refForm.current, 'tVHmVtFu78HBOShST')
-      .then(
-        () => {
-          alert('Message successfully sent!');
-          window.location.reload(false);
-        },
-        () => {
-          alert('Failed to send the message, please try again');
-        }
-      );
-  };
+      .then(response => {
+        console.log('SUCCESS!', response);
+        e.target.reset();
+        setStatus('SUCCESS');
+      }, error => {
+          console.log(error.text);
+        });
+  }
+
+  useEffect(() => {
+    if(status === 'SUCCESS') {
+      setTimeout(() => {
+        setStatus('');
+      }, 10000);
+    }
+  }, [status]);
+  
 
   return (
     <>
@@ -53,13 +62,13 @@ const Contact = () => {
             <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
+                  <input placeholder="Name" type="text" name="user_name" required />
                 </li>
                 <li className="half">
                   <input
                     placeholder="Email"
                     type="email"
-                    name="email"
+                    name="user_email"
                     required
                   />
                 </li>
@@ -67,7 +76,7 @@ const Contact = () => {
                   <input
                     placeholder="Subject"
                     type="text"
-                    name="subject"
+                    name="user_subject"
                     required
                   />
                 </li>
@@ -80,6 +89,7 @@ const Contact = () => {
                 </li>
                 <li>
                   <input type="submit" className="flat-button" value="SEND" />
+                  {status && renderAlert()}
                 </li>
               </ul>
             </form>
@@ -107,5 +117,11 @@ const Contact = () => {
     </>
   )
 }
+
+const renderAlert = () => (
+  <div className="successMessage">
+    Your message sent successfully!
+  </div>
+)
 
 export default Contact
