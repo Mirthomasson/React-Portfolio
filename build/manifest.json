@@ -1,0 +1,25 @@
+{
+  "short_name": "Miranda Thomasson",
+  "name": "Miranda Thomasson Frontend Developer",
+  "icons": [
+    {
+      "src": "./meta-img.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "./meta-img.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./meta-img.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#022c43",
+  "background_color": "#022c43"
+}
