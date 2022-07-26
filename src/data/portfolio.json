@@ -4,49 +4,57 @@
             "cover": "/portfolio/p-1.png",
             "title": "Concrete Contractor Website",
             "description": "HTML, CSS",
-            "url": "https://clark-concrete.netlify.app"
+            "url": "https://clark-concrete.netlify.app",
+            "url_2": "https://github.com/Mirthomasson/ClarkConcrete"
         },
         {
             "cover": "/portfolio/p-2.png",
             "title": "Reddit Simple",
             "description": "React, HTML, CSS, Javascript",
-            "url": "https://reddit-simple.netlify.app"
+            "url": "https://reddit-simple.netlify.app",
+            "url_2": "https://github.com/Mirthomasson/reddit-simple"
         },
         {
             "cover": "/portfolio/p-3.png",
             "title": "Portfolio 1.0",
             "description": "HTML, CSS, Javascript",
-            "url": "https://mir-thomasson-portfolio.netlify.app"
+            "url": "https://mir-thomasson-portfolio.netlify.app",
+            "url_2": "https://github.com/Mirthomasson/Mir-Thomasson-Portfolio"
         },
         {
             "cover": "/portfolio/p-4.png",
             "title": "Data Storage Component",
             "description": "HTML, CSS, Javascript",
-            "url": "https://mirthomasson.github.io/Fylo-Data-Storage-Component/"
+            "url": "https://mirthomasson.github.io/Fylo-Data-Storage-Component/",
+            "url_2": "https://github.com/Mirthomasson/Fylo-Data-Storage-Component"
         },
         {
             "cover": "/portfolio/p-5.png",
             "title": "Rating Component",
             "description": "HTML, CSS, Javascript",
-            "url": "https://mirthomasson.github.io/Interactive-Rating-Component/"
+            "url": "https://mirthomasson.github.io/Interactive-Rating-Component/",
+            "url_2": "https://github.com/Mirthomasson/Interactive-Rating-Component"
         },
         {
             "cover": "/portfolio/p-6.png",
             "title": "Chat App Illustration",
             "description": "HTML, CSS",
-            "url": "https://mirthomasson.github.io/Chat-App-CSS-Illustration/"
+            "url": "https://mirthomasson.github.io/Chat-App-CSS-Illustration/",
+            "url_2": "https://github.com/Mirthomasson/Chat-App-CSS-Illustration"
         },
         {
             "cover": "/portfolio/p-7.png",
             "title": "Mirritos",
             "description": "HTML, CSS",
-            "url": "https://mirthomasson.github.io/Mir-ritos/"
+            "url": "https://mirthomasson.github.io/Mir-ritos/",
+            "url_2": "https://github.com/Mirthomasson/Mir-ritos"
         },
         {
             "cover": "/portfolio/p-8.png",
             "title": "Registration Form",
             "description": "HTML, CSS",
-            "url": "https://mirthomasson.github.io/My-Registration-Form/"
+            "url": "https://mirthomasson.github.io/My-Registration-Form/",
+            "url_2": "https://github.com/Mirthomasson/My-Registration-Form"
         }
     ]
 }

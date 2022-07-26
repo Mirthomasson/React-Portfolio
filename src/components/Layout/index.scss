@@ -4,6 +4,19 @@
     position: absolute;
 }
 
+.top-tag-html {
+    top: 10px;
+    margin-left: -20px;
+    color: #6EBFB5;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    font-size: 18px;
+    font-family: 'La Belle Aurore';
+    z-index: -1;
+}
+
 .top-tags {
     bottom: auto;
     top: 35px;
@@ -17,6 +30,7 @@
     left: 120px;
     font-size: 18px;
     font-family: 'La Belle Aurore';
+     z-index: -1;
 }
 
 .bottom-tag-html {
