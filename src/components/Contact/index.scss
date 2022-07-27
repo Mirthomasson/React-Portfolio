@@ -103,24 +103,25 @@
   position: absolute;
   background: #000;
   top: 50px;
-  right: 30%;
+  right: 35%;
   z-index: 999999;
-  width: 267px;
+  width: 200px;
   padding: 20px;
   color: #fff;
   font-family: 'Helvetica';
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 300;
   opacity: 0;
   animation: fadeIn 1s 1.5s;
   animation-fill-mode: forwards;
+  border-radius: 10px;
 
-  span {
-    font-size: 16px;
-    display: block;
-    padding-top: 20px;
-    color: #6EBFB5;
-  }
+  // span {
+  //   font-size: 16px;
+  //   display: block;
+  //   padding-top: 10px;
+  //   color: #6EBFB5;
+  // }
 }
 
 
@@ -139,6 +140,10 @@
   opacity: 0;
   animation: backInRight 1s 1.2s;
   animation-fill-mode: forwards;
+}
+
+.leaflet-popup-content {
+  font-size: 1.4em;
 }
 
 

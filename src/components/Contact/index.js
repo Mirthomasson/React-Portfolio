@@ -96,19 +96,16 @@ const [status, setStatus] = useState('');
           </div>
         </div>
         <div className="info-map">
-          Monroe
-          <br />
           Virginia, 24574
           <br />
           United States <br />
-          <br />
-          <span>mirthomasson@gmail.com</span>
+          {/* <span>mirthomasson@gmail.com</span> */}
         </div>
         <div className="map-wrap">
           <MapContainer center={[37.552338, -79.267667]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[37.552338, -79.267667]}>
-              <Popup>Miranda lives here, come over for a cup of coffee :)</Popup>
+              <Popup>Mir lives here, <br />come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>
