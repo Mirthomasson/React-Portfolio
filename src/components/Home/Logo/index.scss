@@ -10,6 +10,12 @@
     margin: auto;
 }
 
+.animate__tada { 
+    animation-duration: 1s; 
+    animation-delay: 4s;
+}   
+
+
 
 @media only screen and (max-width: 1100px) {
     .logo-container {
