@@ -3,17 +3,17 @@
   "name": "Miranda Thomasson | Frontend Developer",
   "icons": [
     {
-      "src": "./Mir-favicon.png",
+      "src": "./Mir-sidebar-logo .png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "./Mir-favicon.png",
+      "src": "./Mir-sidebar-logo .png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./Mir-favicon.png",
+      "src": "./Mir-sidebar-logo .png",
       "type": "image/png",
       "sizes": "512x512"
     }
