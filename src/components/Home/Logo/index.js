@@ -1,5 +1,5 @@
 import './index.scss';
-import LogoS from '../../../assets/images/Mir-sidebar-logo.png';
+import LogoS from '../../../assets/images/m-logo.png';
 import React from 'react';
 
 

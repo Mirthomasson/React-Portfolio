@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
-import LogoS from '../../assets/images/Mir-sidebar-logo.png';
+import LogoS from '../../assets/images/m-logo-sidebar.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
