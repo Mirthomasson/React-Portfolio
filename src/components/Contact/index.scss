@@ -161,4 +161,13 @@
   .leaflet-container {
     display: none;
   }
+
+  .successMessage {
+    font-size: 8px;
+    width: 50%;
+  }
+
+  span.tags.bottom-tags {
+    bottom: -70px;
+  }
 }
