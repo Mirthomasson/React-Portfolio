@@ -41,7 +41,7 @@ const About = () => {
           </p>
           <p align="LEFT">
             I'm determined, hardworking, optimistic, and love to stay busy. 
-            I am consistantly improving my programming skills one day at a time.
+            I am consistently improving my programming skills one day at a time.
           </p>
           <p>
             To define myself in one sentence I am a dog mom to 2 german shepherds, 
