@@ -55,7 +55,7 @@ const [status, setStatus] = useState('');
           <p>
             I am interested in freelance opportunities or collaborations. 
             <br />
-            However, if you have other any other requests or questions,
+            However, if you have any other requests or questions,
             don't hesitate to reach out to me using the form below.
           </p>
           <div className="contact-form">
