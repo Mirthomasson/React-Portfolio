@@ -17,6 +17,10 @@
         font-family: 'Coolvetica';
         font-weight: 400;
 
+    h1 img {
+        margin-left: -2em;
+    }
+
     &::before {
         content: '<h1>';
         font-family: 'La Belle Aurore';
