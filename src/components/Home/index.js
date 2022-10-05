@@ -33,9 +33,9 @@ const Home = () => {
                 strArray={nameArray}
                 idx={15} />
                 <br />
-                <AnimatedLetters letterClass={letterClass}
+                {/* <AnimatedLetters letterClass={letterClass}
                 strArray={jobArray}
-                idx={22} />
+                idx={22} /> */}
                 </h1>
                 <h2>
                     Frontend Developer
