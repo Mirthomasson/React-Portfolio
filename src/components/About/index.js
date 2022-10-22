@@ -38,13 +38,14 @@ const About = () => {
             I am an ambitious front-end developer looking for a role with an 
             established company with the opportunity to work along side experienced 
             developers and collaborate on projects with a team.
+            I have experience creating web pages for clients, managing existing sites, and am open to freelance projects. 
           </p>
           <p align="LEFT">
             I'm determined, hardworking, optimistic, and love to stay busy. 
             I am consistently improving my programming skills one day at a time.
           </p>
           <p>
-            To define myself in one sentence I am a dog mom to 2 german shepherds, 
+            To define myself in one sentence- I am a dog mom to 2 german shepherds, 
             wife to an amazing husband, a yoga enthusiast,
             self-proclaimed chef, and addicted to code.
           </p>

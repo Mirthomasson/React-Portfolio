@@ -1,9 +1,37 @@
 {
     "portfolio": [
         {
+            "cover": "/portfolio/sml-pic.png",
+            "title": "Smith Mountain Laundromat",
+            "description": "HTML, CSS, Javascript, React",
+            "url": "https://www.smlaundromat.com/",
+            "url_2": "https://github.com/Mirthomasson/Smith-Mountain-Laundromat.git"
+        },
+        {
+            "cover": "/portfolio/foster-pic.png",
+            "title": "Foster Aviation & Mobile Maintenance",
+            "description": "HTML, CSS, Javascript",
+            "url": "https://www.fosteraviationmm.com/",
+            "url_2": "https://github.com/Mirthomasson/Foster-Aviation.git"
+        },
+        {
+            "cover": "/portfolio/dirt-pic.png",
+            "title": "Dirt-Works",
+            "description": "HTML, CSS, Javascript",
+            "url": "https://www.vaearthworks.com/",
+            "url_2": "https://github.com/Mirthomasson/Dirt-works.git"
+        },
+        {
+            "cover": "/portfolio/mirdle.png",
+            "title": "Mirdle (Wordle Copycat)",
+            "description": "HTML, CSS, Javascript",
+            "url": "https://mirdle.vercel.app/",
+            "url_2": "https://github.com/Mirthomasson/Mirdle.git"
+        },
+        {
             "cover": "/portfolio/p-1.png",
-            "title": "Concrete Contractor Website",
-            "description": "HTML, CSS",
+            "title": "CalculaMir (calculator)",
+            "description": "HTML, CSS, Javascript",
             "url": "https://clark-concrete.netlify.app",
             "url_2": "https://github.com/Mirthomasson/ClarkConcrete"
         },
