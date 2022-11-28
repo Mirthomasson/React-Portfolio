@@ -3,7 +3,7 @@ import './index.scss';
 import LogoS from '../../assets/images/m-logo-sidebar.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
     <div className='nav-bar'>
@@ -38,6 +38,11 @@ const Sidebar = () => (
             <li>
             <a target="_blank" rel='noreferrer' href="https://twitter.com/MirThomasson">
                 <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
+            </a>
+            </li>
+            <li>
+            <a target="_blank" rel='noreferrer' href="https://www.facebook.com/mir.thomasson">
+                <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" />
             </a>
             </li>
         </ul>
