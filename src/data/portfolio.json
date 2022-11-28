@@ -15,11 +15,11 @@
             "url_2": "https://github.com/Mirthomasson/Foster-Aviation.git"
         },
         {
-            "cover": "/portfolio/dirt-pic.png",
-            "title": "Dirt-Works",
-            "description": "HTML, CSS, Javascript",
-            "url": "https://www.vaearthworks.com/",
-            "url_2": "https://github.com/Mirthomasson/Dirt-works.git"
+            "cover": "/portfolio/two-roosters.png",
+            "title": "The Two Roosters",
+            "description": "HTML, CSS, Javascript, React",
+            "url": "https://thetworoosters.com/",
+            "url_2": "https://github.com/Mirthomasson/Two-Roosters.git"
         },
         {
             "cover": "/portfolio/mirdle.png",
@@ -29,11 +29,11 @@
             "url_2": "https://github.com/Mirthomasson/Mirdle.git"
         },
         {
-            "cover": "/portfolio/p-1.png",
+            "cover": "/portfolio/calculamir.png",
             "title": "CalculaMir (calculator)",
-            "description": "HTML, CSS, Javascript",
+            "description": "HTML, CSS, Javascript, React",
             "url": "https://clark-concrete.netlify.app",
-            "url_2": "https://github.com/Mirthomasson/ClarkConcrete"
+            "url_2": "https://github.com/Mirthomasson/CalculaMir.git"
         },
         {
             "cover": "/portfolio/p-2.png",

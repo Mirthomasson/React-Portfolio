@@ -35,9 +35,7 @@ const About = () => {
             />
           </h1>
           <p>
-            I am an ambitious front-end developer looking for a role with an 
-            established company with the opportunity to work along side experienced 
-            developers and collaborate on projects with a team.
+            I am an ambitious front-end developer working as a Marketing Specialist for Automated Industrial Technologies.
             I have experience creating web pages for clients, managing existing sites, and am open to freelance projects. 
           </p>
           <p align="LEFT">
@@ -46,7 +44,7 @@ const About = () => {
           </p>
           <p>
             To define myself in one sentence- I am a dog mom to 2 german shepherds, 
-            wife to an amazing husband, a yoga enthusiast,
+            wife to an amazing husband, addicted to paramotors,
             self-proclaimed chef, and addicted to code.
           </p>
         </div>
